@@ -1,0 +1,129 @@
+
+CAREERGPS - PHASE 2
+KNOWLEDGE GRAPH & PRODUCT ARCHITECTURE
+
+1. KNOWLEDGE GRAPH OBJECTS
+
+Student
+Interest
+Subject
+Skill
+Stream
+Course
+Exam
+College
+Scholarship
+Career
+Industry
+Company
+Roadmap
+Goal
+
+2. RELATIONSHIPS
+
+Student
+ -> has Interests
+
+Interest
+ -> develops Skills
+
+Skills
+ -> support Careers
+
+Subjects
+ -> required by Courses
+
+Courses
+ -> lead to Careers
+
+Exams
+ -> unlock Courses
+
+Careers
+ -> belong to Industries
+
+Industries
+ -> contain Companies
+
+3. CAREERMAP STRUCTURE
+
+Class 10
+ -> Stream
+ -> Course
+ -> Exam
+ -> College
+ -> Career
+
+4. ROUTE TYPES
+
+Fastest Route
+Lowest Cost Route
+Highest Salary Route
+Government Route
+Study Abroad Route
+Backup Route
+
+5. CAREER DATA MODEL
+
+Career
+- Name
+- Description
+- Required Skills
+- Required Subjects
+- Education Path
+- Exams
+- Salary Range
+- Growth Potential
+- Work Environment
+- Related Careers
+- Challenges
+- Alternative Routes
+
+6. STUDENT PROFILE MODEL
+
+Student
+- Current Class
+- Interests
+- Favorite Subjects
+- Difficult Subjects
+- Budget
+- Location
+- Lifestyle Preferences
+- Goals
+
+7. RECOMMENDATION INPUTS
+
+Academic Factors
+Interest Factors
+Lifestyle Factors
+Constraint Factors
+Career Factors
+
+8. RECOMMENDATION OUTPUT
+
+Suggested Careers
+Suggested Courses
+Suggested Exams
+Suggested Roadmaps
+Suggested Alternatives
+
+9. REALITY CHECK MODULE
+
+Every Career Shows:
+- Benefits
+- Challenges
+- Required Effort
+- Competition Level
+- Cost
+- Duration
+
+10. FUTURE SYSTEMS
+
+Career Decision Engine
+Family Decision Support Tool
+AI Career Mentor
+College Finder
+Scholarship Finder
+Study Planner
+
+END OF PHASE 2

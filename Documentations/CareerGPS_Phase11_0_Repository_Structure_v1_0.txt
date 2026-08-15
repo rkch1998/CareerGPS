@@ -1,0 +1,421 @@
+==================================================
+CAREERGPS
+PHASE 11.0
+REPOSITORY STRUCTURE
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Define repository structure, branching strategy,
+development workflow, and deployment standards.
+
+This document acts as the master implementation
+blueprint for developers.
+
+==================================================
+ARCHITECTURE PRINCIPLE
+==================================================
+
+Build simple.
+
+Build modular.
+
+Build maintainable.
+
+Avoid premature microservices.
+
+==================================================
+REPOSITORIES
+==================================================
+
+MVP REPOSITORIES
+
+1. careergps-backend
+
+Spring Boot Application
+
+2. careergps-frontend
+
+React Application
+
+--------------------------------------------------
+
+FUTURE REPOSITORIES
+
+careergps-mobile
+
+careergps-data
+
+careergps-analytics
+
+==================================================
+BACKEND REPOSITORY STRUCTURE
+==================================================
+
+careergps-backend
+
+├── src
+│
+├── main
+│   ├── java
+│   │
+│   └── resources
+│
+├── test
+│
+├── docs
+│
+├── scripts
+│
+├── database
+│
+└── README.md
+
+==================================================
+JAVA PACKAGE STRUCTURE
+==================================================
+
+com.careergps
+
+├── config
+│
+├── controller
+│
+├── service
+│
+├── repository
+│
+├── entity
+│
+├── dto
+│
+├── mapper
+│
+├── exception
+│
+├── util
+│
+├── assessment
+│
+├── career
+│
+├── recommendation
+│
+└── careermap
+
+==================================================
+FRONTEND REPOSITORY STRUCTURE
+==================================================
+
+careergps-frontend
+
+├── public
+│
+├── src
+│
+├── assets
+│
+├── components
+│
+├── pages
+│
+├── services
+│
+├── hooks
+│
+├── routes
+│
+├── styles
+│
+└── README.md
+
+==================================================
+FRONTEND PAGE STRUCTURE
+==================================================
+
+pages
+
+Home
+
+Explore
+
+Journey
+
+Questions
+
+Results
+
+CareerDetails
+
+CareerMap
+
+About
+
+==================================================
+GIT BRANCH STRATEGY
+==================================================
+
+main
+
+Production Ready Code
+
+--------------------------------------------------
+
+develop
+
+Integration Branch
+
+--------------------------------------------------
+
+feature/*
+
+Feature Development
+
+Examples
+
+feature/question-engine
+
+feature/recommendation-engine
+
+feature/career-api
+
+==================================================
+BRANCH FLOW
+==================================================
+
+feature branch
+
+↓
+
+develop
+
+↓
+
+main
+
+==================================================
+COMMIT MESSAGE STANDARD
+==================================================
+
+feat:
+
+new feature
+
+Example
+
+feat: add recommendation engine
+
+--------------------------------------------------
+
+fix:
+
+bug fix
+
+Example
+
+fix: correct trait scoring
+
+--------------------------------------------------
+
+refactor:
+
+code cleanup
+
+--------------------------------------------------
+
+docs:
+
+documentation changes
+
+==================================================
+DATABASE FOLDER
+==================================================
+
+database
+
+├── schema
+│
+├── migrations
+│
+├── seed-data
+│
+└── backups
+
+==================================================
+SCHEMA FILES
+==================================================
+
+001_create_categories.sql
+
+002_create_careers.sql
+
+003_create_traits.sql
+
+004_create_questions.sql
+
+005_create_mappings.sql
+
+==================================================
+SEED DATA
+==================================================
+
+career_categories.csv
+
+careers.csv
+
+traits.csv
+
+questions.csv
+
+question_options.csv
+
+==================================================
+API VERSIONING
+==================================================
+
+Current
+
+/api/v1
+
+Future
+
+/api/v2
+
+==================================================
+ENVIRONMENTS
+==================================================
+
+local
+
+Developer Machine
+
+--------------------------------------------------
+
+dev
+
+Shared Development Environment
+
+--------------------------------------------------
+
+prod
+
+Production Environment
+
+==================================================
+CONFIGURATION FILES
+==================================================
+
+application.yml
+
+application-local.yml
+
+application-dev.yml
+
+application-prod.yml
+
+==================================================
+CI/CD STRATEGY
+==================================================
+
+GitHub Actions
+
+--------------------------------------------------
+
+On Pull Request
+
+Run Build
+
+Run Tests
+
+--------------------------------------------------
+
+On Merge To Main
+
+Deploy Automatically
+
+==================================================
+TESTING STRUCTURE
+==================================================
+
+unit-tests
+
+service-tests
+
+repository-tests
+
+controller-tests
+
+integration-tests
+
+==================================================
+DOCUMENTATION FOLDER
+==================================================
+
+docs
+
+├── architecture
+├── api
+├── database
+├── onboarding
+└── releases
+
+==================================================
+README CONTENT
+==================================================
+
+Project Overview
+
+Setup Instructions
+
+Environment Variables
+
+Database Setup
+
+Run Instructions
+
+Deployment Process
+
+==================================================
+SECURITY RULES
+==================================================
+
+Never commit:
+
+Passwords
+
+API Keys
+
+Database Credentials
+
+--------------------------------------------------
+
+Use Environment Variables
+
+==================================================
+MVP PRINCIPLE
+==================================================
+
+One Backend
+
+One Frontend
+
+One Database
+
+Keep Architecture Simple
+
+==================================================
+SUCCESS CRITERIA
+==================================================
+
+✓ Easy for new developers
+
+✓ Easy deployment
+
+✓ Clear folder structure
+
+✓ Scalable for future versions
+
+==================================================
+END OF DOCUMENT
+==================================================

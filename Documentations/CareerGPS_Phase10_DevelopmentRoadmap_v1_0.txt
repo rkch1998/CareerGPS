@@ -1,0 +1,374 @@
+==================================================
+CAREERGPS
+PHASE 10
+DEVELOPMENT ROADMAP & SPRINT PLANNING
+VERSION 1.0
+==================================================
+
+MISSION
+
+Launch the first usable version of CareerGPS.
+
+GOAL
+
+Allow a student to:
+
+1. Answer questions
+2. Get recommendations
+3. View CareerMap
+4. Explore careers
+
+==================================================
+MVP DEFINITION
+==================================================
+
+INCLUDED
+
+✓ 75 Careers
+✓ Question Bank
+✓ Trait Engine
+✓ Recommendation Engine
+✓ CareerMap
+✓ Explore Mode
+✓ Journey Mode
+
+NOT INCLUDED
+
+✗ AI Mentor
+✗ Scholarship Finder
+✗ College Finder
+✗ Parent Dashboard
+✗ Login System
+✗ Mobile App
+
+==================================================
+DEVELOPMENT PHASES
+==================================================
+
+Phase A
+Knowledge Base
+
+Phase B
+Backend APIs
+
+Phase C
+Recommendation Engine
+
+Phase D
+Frontend
+
+Phase E
+Testing
+
+Phase F
+Launch
+
+==================================================
+SPRINT 1
+FOUNDATION
+==================================================
+
+Duration
+
+1 Week
+
+Goal
+
+Create project structure.
+
+Tasks
+
+✓ Create Git Repository
+
+✓ Setup Spring Boot
+
+✓ Setup PostgreSQL
+
+✓ Setup React Project
+
+✓ Configure Deployment
+
+Deliverables
+
+Working Backend
+
+Working Frontend
+
+Database Connection
+
+==================================================
+SPRINT 2
+DATABASE IMPLEMENTATION
+==================================================
+
+Duration
+
+1 Week
+
+Goal
+
+Create schema.
+
+Tables
+
+career_categories
+
+careers
+
+traits
+
+questions
+
+question_options
+
+routes
+
+career_trait_mapping
+
+Deliverables
+
+Database Ready
+
+==================================================
+SPRINT 3
+KNOWLEDGE IMPORT
+==================================================
+
+Duration
+
+1 Week
+
+Goal
+
+Load CareerGPS data.
+
+Import
+
+75 Careers
+
+Traits
+
+Questions
+
+Routes
+
+Deliverables
+
+Knowledge Base Ready
+
+==================================================
+SPRINT 4
+CAREER APIS
+==================================================
+
+Duration
+
+1 Week
+
+Goal
+
+Expose career data.
+
+APIs
+
+GET /careers
+
+GET /careers/{id}
+
+GET /categories
+
+Deliverables
+
+Career Explorer Backend
+
+==================================================
+SPRINT 5
+QUESTION ENGINE
+==================================================
+
+Duration
+
+1 Week
+
+Goal
+
+Serve questions.
+
+APIs
+
+GET /questions
+
+POST /answers
+
+Deliverables
+
+Assessment Flow Backend
+
+==================================================
+SPRINT 6
+RECOMMENDATION ENGINE
+==================================================
+
+Duration
+
+2 Weeks
+
+Goal
+
+Generate recommendations.
+
+Features
+
+Trait Scoring
+
+Career Matching
+
+Explanation Generator
+
+Deliverables
+
+Working Recommendation Engine
+
+==================================================
+SPRINT 7
+CAREERMAP ENGINE
+==================================================
+
+Duration
+
+1 Week
+
+Goal
+
+Generate routes.
+
+Features
+
+Career Routes
+
+Alternative Routes
+
+Route Comparison
+
+Deliverables
+
+CareerMap API
+
+==================================================
+SPRINT 8
+FRONTEND MVP
+==================================================
+
+Duration
+
+2 Weeks
+
+Pages
+
+Home
+
+Explore
+
+Question Flow
+
+Results
+
+Career Details
+
+CareerMap
+
+Deliverables
+
+Usable Website
+
+==================================================
+SPRINT 9
+TESTING
+==================================================
+
+Duration
+
+1 Week
+
+Tests
+
+Recommendation Validation
+
+API Testing
+
+Mobile Testing
+
+Performance Testing
+
+Deliverables
+
+Stable MVP
+
+==================================================
+SPRINT 10
+BETA LAUNCH
+==================================================
+
+Duration
+
+1 Week
+
+Audience
+
+Friends
+
+Students
+
+Parents
+
+Teachers
+
+Collect
+
+Feedback
+
+Bugs
+
+Suggestions
+
+Deliverables
+
+Real User Feedback
+
+==================================================
+SUCCESS METRICS
+==================================================
+
+Assessment Completion Rate
+
+Target
+
+>70%
+
+--------------------------------------------------
+
+Question Completion Time
+
+Target
+
+<10 Minutes
+
+--------------------------------------------------
+
+Recommendation Satisfaction
+
+Target
+
+>60%
+
+--------------------------------------------------
+
+Career Discovery Rate
+
+Target
+
+At least 1 new career discovered
+
+==================================================
+PHASE 10 COMPLETE
+==================================================

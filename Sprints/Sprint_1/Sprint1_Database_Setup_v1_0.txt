@@ -1,0 +1,124 @@
+==================================================
+CAREERGPS
+SPRINT 1
+DATABASE SETUP
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Prepare PostgreSQL database.
+
+==================================================
+DATABASE
+==================================================
+
+Name
+
+careergps
+
+==================================================
+SPRING CONFIG
+==================================================
+
+spring.datasource.url
+
+spring.datasource.username
+
+spring.datasource.password
+
+==================================================
+INITIAL TABLES
+==================================================
+
+career_categories
+
+careers
+
+traits
+
+questions
+
+question_options
+
+question_trait_mapping
+
+career_trait_mapping
+
+==================================================
+DATABASE RULES
+==================================================
+
+Every table must have:
+
+id
+
+created_at
+
+updated_at
+
+==================================================
+NAMING STANDARD
+==================================================
+
+Tables
+
+snake_case
+
+Examples
+
+career_categories
+
+question_trait_mapping
+
+Columns
+
+snake_case
+
+Examples
+
+career_id
+
+question_text
+
+==================================================
+INDEXING RULES
+==================================================
+
+Create indexes on:
+
+career_id
+
+trait_id
+
+question_id
+
+option_id
+
+==================================================
+BACKUP STRATEGY
+==================================================
+
+Development
+
+Daily dump
+
+Production
+
+Automated backup
+
+==================================================
+SPRINT OUTPUT
+==================================================
+
+✓ PostgreSQL Running
+
+✓ Database Created
+
+✓ Schema Created
+
+✓ Connection Verified
+
+==================================================
+END
+==================================================

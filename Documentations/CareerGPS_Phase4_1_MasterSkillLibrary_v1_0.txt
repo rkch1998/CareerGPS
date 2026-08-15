@@ -1,0 +1,156 @@
+CAREERGPS - PHASE 4.1
+MASTER SKILL LIBRARY v1.0
+
+PURPOSE
+
+Create a common skill library that can be reused across all careers.
+
+==================================================
+ANALYTICAL SKILLS
+==================================================
+
+SK001 Problem Solving
+SK002 Logical Thinking
+SK003 Critical Thinking
+SK004 Decision Making
+SK005 Attention to Detail
+SK006 Pattern Recognition
+SK007 Data Analysis
+SK008 Research
+SK009 Strategic Thinking
+SK010 Investigation
+
+==================================================
+TECHNICAL SKILLS
+==================================================
+
+SK011 Programming
+SK012 Software Development
+SK013 Mathematics
+SK014 Engineering Design
+SK015 Electronics
+SK016 Cybersecurity
+SK017 Networking
+SK018 Cloud Computing
+SK019 AI / Machine Learning
+SK020 Database Management
+
+==================================================
+COMMUNICATION SKILLS
+==================================================
+
+SK021 Verbal Communication
+SK022 Written Communication
+SK023 Public Speaking
+SK024 Presentation Skills
+SK025 Active Listening
+SK026 Negotiation
+SK027 Storytelling
+SK028 Interviewing
+SK029 Teaching
+SK030 Language Proficiency
+
+==================================================
+CREATIVE SKILLS
+==================================================
+
+SK031 Creativity
+SK032 Design Thinking
+SK033 Graphic Design
+SK034 UI/UX Design
+SK035 Animation
+SK036 Content Creation
+SK037 Photography
+SK038 Video Editing
+SK039 Fashion Design
+SK040 Interior Design
+
+==================================================
+LEADERSHIP SKILLS
+==================================================
+
+SK041 Leadership
+SK042 Team Management
+SK043 Conflict Resolution
+SK044 Delegation
+SK045 Mentoring
+SK046 Project Management
+SK047 Entrepreneurship
+SK048 Resource Planning
+SK049 Risk Management
+SK050 Organizational Skills
+
+==================================================
+BUSINESS SKILLS
+==================================================
+
+SK051 Accounting
+SK052 Financial Analysis
+SK053 Budgeting
+SK054 Marketing
+SK055 Sales
+SK056 Customer Service
+SK057 Business Strategy
+SK058 Market Research
+SK059 Investment Analysis
+SK060 Business Communication
+
+==================================================
+HEALTHCARE SKILLS
+==================================================
+
+SK061 Patient Care
+SK062 Diagnosis
+SK063 Medical Knowledge
+SK064 Empathy
+SK065 Counseling
+SK066 Clinical Observation
+SK067 Healthcare Documentation
+SK068 Emergency Response
+SK069 Rehabilitation
+SK070 Nutrition Planning
+
+==================================================
+EDUCATION SKILLS
+==================================================
+
+SK071 Teaching
+SK072 Lesson Planning
+SK073 Student Assessment
+SK074 Curriculum Design
+SK075 Coaching
+SK076 Educational Counseling
+SK077 Special Education
+SK078 Learning Facilitation
+SK079 Classroom Management
+SK080 Training Development
+
+==================================================
+PHYSICAL & FIELD SKILLS
+==================================================
+
+SK081 Physical Fitness
+SK082 Stamina
+SK083 Outdoor Survival
+SK084 Equipment Handling
+SK085 Driving
+SK086 Field Operations
+SK087 Agriculture
+SK088 Construction
+SK089 Mechanical Repair
+SK090 Safety Procedures
+
+==================================================
+SCIENCE & RESEARCH SKILLS
+==================================================
+
+SK091 Scientific Method
+SK092 Laboratory Work
+SK093 Experiment Design
+SK094 Observation
+SK095 Scientific Writing
+SK096 Data Collection
+SK097 Statistical Analysis
+SK098 Environmental Analysis
+SK099 Innovation
+SK100 Discovery & Exploration

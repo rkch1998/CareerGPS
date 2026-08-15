@@ -1,0 +1,142 @@
+==================================================
+CAREERGPS
+PHASE 9.2
+ENTITY RELATIONSHIP MODEL
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Define how all CareerGPS entities connect together.
+
+==================================================
+HIGH LEVEL RELATIONSHIP
+==================================================
+
+Question
+   ↓
+Question Option
+   ↓
+Trait Mapping
+   ↓
+Trait
+   ↓
+Career Mapping
+   ↓
+Career
+   ↓
+Career Route
+
+==================================================
+ENTITY RELATIONSHIP DIAGRAM
+==================================================
+
+career_categories
+        │
+        │ 1:N
+        ▼
+careers
+        │
+        ├───────────────┐
+        │               │
+        ▼               ▼
+
+career_skill_mapping
+career_trait_mapping
+
+        │               │
+        ▼               ▼
+
+skills          traits
+
+--------------------------------------------------
+
+questions
+      │
+      ▼
+
+question_options
+
+      │
+      ▼
+
+question_trait_mapping
+
+      │
+      ▼
+
+traits
+
+--------------------------------------------------
+
+careers
+
+      │
+      ▼
+
+routes
+
+--------------------------------------------------
+
+user_assessments
+
+      │
+      ▼
+
+assessment_answers
+
+      │
+      ▼
+
+assessment_trait_scores
+
+      │
+      ▼
+
+recommendations
+
+==================================================
+CARDINALITY RULES
+==================================================
+
+One Category
+→ Many Careers
+
+One Career
+→ Many Traits
+
+One Career
+→ Many Skills
+
+One Career
+→ Many Routes
+
+One Question
+→ Many Options
+
+One Option
+→ Many Trait Scores
+
+One Assessment
+→ Many Answers
+
+One Assessment
+→ Many Recommendations
+
+==================================================
+DESIGN PRINCIPLE
+==================================================
+
+Questions should never directly point to Careers.
+
+Questions
+  ↓
+Traits
+  ↓
+Careers
+
+This keeps the engine flexible and maintainable.
+
+==================================================
+END OF DOCUMENT
+==================================================

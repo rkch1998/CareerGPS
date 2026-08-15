@@ -1,0 +1,62 @@
+CAREERGPS - PHASE 4.2
+CAREER → SKILL MAPPING
+
+==================================================
+TECH001 SOFTWARE ENGINEER
+==================================================
+
+Required Skills
+
+SK001 Problem Solving
+SK002 Logical Thinking
+SK011 Programming
+SK012 Software Development
+SK020 Database Management
+
+==================================================
+TECH002 DATA SCIENTIST
+==================================================
+
+Required Skills
+
+SK001 Problem Solving
+SK007 Data Analysis
+SK013 Mathematics
+SK019 AI / Machine Learning
+SK097 Statistical Analysis
+
+==================================================
+MED001 DOCTOR
+==================================================
+
+Required Skills
+
+SK062 Diagnosis
+SK063 Medical Knowledge
+SK064 Empathy
+SK066 Clinical Observation
+SK068 Emergency Response
+
+==================================================
+EDU001 SCHOOL TEACHER
+==================================================
+
+Required Skills
+
+SK021 Verbal Communication
+SK029 Teaching
+SK071 Teaching
+SK079 Classroom Management
+SK075 Coaching
+
+==================================================
+BUS001 CHARTERED ACCOUNTANT
+==================================================
+
+Required Skills
+
+SK051 Accounting
+SK052 Financial Analysis
+SK053 Budgeting
+SK005 Attention to Detail
+SK057 Business Strategy

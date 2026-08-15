@@ -1,0 +1,90 @@
+
+CAREERGPS - PHASE 4
+CAREER TAXONOMY & KNOWLEDGE BASE
+
+GOAL
+Create the knowledge library used by CareerGPS.
+
+CAREER CATEGORIES
+
+1. Technology
+2. Healthcare
+3. Business
+4. Government
+5. Education
+6. Creative Arts
+7. Science & Research
+8. Law
+9. Defense
+10. Sports
+11. Skilled Trades
+12. Agriculture
+13. Hospitality
+14. Media
+
+CAREER DATA STRUCTURE
+
+Career Name
+Description
+Required Skills
+Required Subjects
+Education Path
+Exams
+Salary Range
+Growth Potential
+Work Environment
+Related Careers
+Challenges
+Alternative Routes
+
+EXAMPLE
+
+Software Engineer
+
+Category:
+Technology
+
+Skills:
+- Programming
+- Problem Solving
+- Logic
+
+Subjects:
+- Maths
+- Computer Science
+
+Routes:
+Route A:
+10th → Science → B.Tech → Software Engineer
+
+Route B:
+10th → Diploma → B.Tech → Software Engineer
+
+Route C:
+10th → BCA → MCA → Software Engineer
+
+MVP TARGET
+
+Build Career Library:
+50-100 Careers
+
+SKILL TAXONOMY
+
+- Technical Skills
+- Creative Skills
+- Communication Skills
+- Leadership Skills
+- Analytical Skills
+- Physical Skills
+
+SUBJECT TAXONOMY
+
+- Maths
+- Physics
+- Chemistry
+- Biology
+- Computer Science
+- Economics
+- Commerce
+- History
+- Arts

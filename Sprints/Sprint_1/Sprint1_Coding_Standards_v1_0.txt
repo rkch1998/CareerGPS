@@ -1,0 +1,128 @@
+==================================================
+CAREERGPS
+SPRINT 1
+CODING STANDARDS
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Maintain consistent code quality.
+
+==================================================
+JAVA STANDARDS
+==================================================
+
+Java Version
+
+17
+
+==================================================
+CLASS NAMING
+==================================================
+
+Controller
+
+CareerController
+
+QuestionController
+
+RecommendationController
+
+--------------------------------------------------
+
+Service
+
+CareerService
+
+QuestionService
+
+RecommendationService
+
+--------------------------------------------------
+
+Repository
+
+CareerRepository
+
+QuestionRepository
+
+==================================================
+METHOD NAMING
+==================================================
+
+Good
+
+getCareerById()
+
+saveAssessment()
+
+generateRecommendations()
+
+Bad
+
+get()
+
+save()
+
+process()
+
+==================================================
+API STANDARDS
+==================================================
+
+Base URL
+
+/api/v1
+
+==================================================
+ERROR HANDLING
+==================================================
+
+Use GlobalExceptionHandler
+
+Never return stack traces.
+
+==================================================
+LOGGING
+==================================================
+
+Use Logger
+
+Log:
+
+API calls
+
+Errors
+
+Important processing
+
+==================================================
+CODE REVIEW RULES
+==================================================
+
+No duplicate code
+
+Meaningful method names
+
+Meaningful variable names
+
+Small methods preferred
+
+==================================================
+DOCUMENTATION
+==================================================
+
+Public methods should include JavaDoc.
+
+==================================================
+SPRINT OUTPUT
+==================================================
+
+✓ Standards Defined
+
+✓ Team Consistency Enabled
+
+==================================================
+END
+==================================================

@@ -1,0 +1,82 @@
+
+CAREERGPS - PHASE 1
+PRODUCT FOUNDATION
+
+1. VISION
+CareerGPS helps students discover, compare, and navigate education and career paths.
+
+2. MISSION
+Help every student make informed career decisions.
+
+3. TARGET USERS
+- Class 10 Students
+- Class 12 Students
+- Parents
+- Teachers
+- Career Counsellors
+
+4. USER PERSONAS
+A. Class 10 Student
+- Confused about stream selection
+- Doesn't know available careers
+
+B. Parent
+- Wants stable future
+- Needs trusted information
+
+C. Class 12 Student
+- College and exam decisions
+
+5. PRODUCT PRINCIPLES
+- Student Comes First
+- Recommend, Never Decide
+- Explain Every Recommendation
+- Show Multiple Paths
+- Respect Reality
+- Avoid Prestige Bias
+- Avoid Salary-Only Bias
+- Encourage Exploration
+
+6. LANGUAGE GUIDE
+- Class 8 student should understand every question
+- Use simple language
+- No jargon
+- One idea per question
+- Friendly tone
+
+7. THREE MODES
+
+Explore Mode
+- Discover careers
+- 2-3 minutes
+
+Journey Mode
+- Main recommendation flow
+- 8-12 minutes
+
+Discovery Mode
+- Deep self-discovery
+- 20-30 minutes
+
+8. DECISION FRAMEWORK
+
+Level 1: Current Situation
+Level 2: Learning Preferences
+Level 3: Interests
+Level 4: Lifestyle Goals
+Level 5: Constraints
+Level 6: Career Preferences
+Level 7: Recommendations
+
+9. ETHICAL PRINCIPLES
+- Student decides
+- System recommends
+- Explain reasoning
+- Show alternatives
+- Respect every profession
+
+10. FOUNDER PARKING LOT
+- Career Decision Engine
+- Family Decision Support Tool
+- AI Career Mentor
+- Parent Reports

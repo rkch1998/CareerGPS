@@ -1,0 +1,461 @@
+==================================================
+CAREERGPS
+PHASE 8
+UX, USER FLOWS & MOBILE EXPERIENCE
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Design how students interact with CareerGPS from
+their first visit until they receive career
+recommendations and CareerMaps.
+
+==================================================
+PHASE 8.1
+USER JOURNEY
+==================================================
+
+PRIMARY USER
+
+Class 10 Student
+
+GOAL
+
+Help students understand available paths and
+discover careers aligned with their interests.
+
+--------------------------------------------------
+STEP 1 - LANDING PAGE
+--------------------------------------------------
+
+Student opens CareerGPS
+
+Message:
+
+"Not sure what to do after 10th or 12th?
+Let's explore your options."
+
+Actions:
+
+[ Start Journey ]
+[ Explore Careers ]
+[ Browse CareerMap ]
+
+--------------------------------------------------
+STEP 2 - STUDENT PROFILE
+--------------------------------------------------
+
+Collect:
+
+- Current Class
+- Stream (if selected)
+- Age
+
+--------------------------------------------------
+STEP 3 - MODE SELECTION
+--------------------------------------------------
+
+Available Modes:
+
+1. Explore Mode
+2. Journey Mode
+3. Discovery Mode
+
+Recommended:
+Journey Mode
+
+--------------------------------------------------
+STEP 4 - QUESTION FLOW
+--------------------------------------------------
+
+Student answers:
+
+- Interest Questions
+- Skill Questions
+- Work Preference Questions
+- Goal Questions
+- Constraint Questions
+
+--------------------------------------------------
+STEP 5 - PROFILE GENERATION
+--------------------------------------------------
+
+CareerGPS generates:
+
+- Interests
+- Skills
+- Traits
+
+--------------------------------------------------
+STEP 6 - RECOMMENDATIONS
+--------------------------------------------------
+
+Results shown as:
+
+Strong Match
+Good Match
+Worth Exploring
+
+--------------------------------------------------
+STEP 7 - CAREER DETAILS
+--------------------------------------------------
+
+Student selects a career
+
+Display:
+
+- Description
+- Required Skills
+- Required Subjects
+- Education Routes
+- Reality Check
+
+--------------------------------------------------
+STEP 8 - CAREERMAP
+--------------------------------------------------
+
+CareerGPS generates:
+
+Possible Routes
+
+Example:
+
+10th
+↓
+Science
+↓
+B.Tech
+↓
+Software Engineer
+
+--------------------------------------------------
+STEP 9 - SAVE PLAN
+--------------------------------------------------
+
+Options:
+
+- Save CareerMap
+- Download (Future)
+- Share (Future)
+
+--------------------------------------------------
+STEP 10 - NEXT ACTIONS
+--------------------------------------------------
+
+Examples:
+
+- Explore Science Stream
+- Learn about JEE
+- Compare Career Routes
+
+==================================================
+PHASE 8.2
+SCREEN INVENTORY
+==================================================
+
+PUBLIC SCREENS
+
+1. Home Page
+2. About CareerGPS
+3. Career Explorer
+4. Career Categories
+5. Career Detail Page
+
+USER FLOW SCREENS
+
+6. Student Profile Setup
+7. Mode Selection
+8. Question Flow
+9. Recommendation Results
+10. Career Match Details
+11. CareerMap View
+12. Route Comparison
+
+ACCOUNT SCREENS
+
+13. Login
+14. Signup
+15. Dashboard
+16. Saved CareerMaps
+
+FUTURE SCREENS
+
+17. Family View
+18. AI Mentor
+19. Scholarship Finder
+20. College Finder
+
+==================================================
+PHASE 8.3
+LOW-FIDELITY WIREFRAMES
+==================================================
+
+HOME PAGE
+
++----------------------------------+
+| CareerGPS Logo                   |
++----------------------------------+
+
+Find Your Path.
+Build Your Future.
+
+[ Start Journey ]
+
+[ Explore Careers ]
+
+------------------------------------
+
+Popular Categories
+
+Technology
+Healthcare
+Business
+Creative Arts
+
+------------------------------------
+
+CareerMap Preview
+
+Class 10
+  ↓
+Science
+  ↓
+B.Tech
+  ↓
+Software Engineer
+
+------------------------------------
+
+
+QUESTION SCREEN
+
++----------------------------------+
+
+Question 3 of 20
+
+Which activity sounds fun?
+
+(o) Building Apps
+
+(o) Helping People
+
+(o) Designing Things
+
+(o) Teaching Others
+
+[ Next ]
+
++----------------------------------+
+
+
+RECOMMENDATION SCREEN
+
++----------------------------------+
+
+Your Career Matches
+
+STRONG MATCH
+
+✓ Software Engineer
+
+✓ Data Scientist
+
+✓ AI Engineer
+
+GOOD MATCH
+
+✓ Cybersecurity Analyst
+
+WORTH EXPLORING
+
+✓ Product Manager
+
+[ View CareerMap ]
+
++----------------------------------+
+
+
+CAREERMAP SCREEN
+
++----------------------------------+
+
+Software Engineer
+
+Route A
+
+10th
+ ↓
+Science PCM
+ ↓
+B.Tech
+ ↓
+Software Engineer
+
+----------------------------------
+
+Route B
+
+10th
+ ↓
+Diploma
+ ↓
+B.Tech
+ ↓
+Software Engineer
+
+[ Compare Routes ]
+
++----------------------------------+
+
+==================================================
+PHASE 8.4
+NAVIGATION STRUCTURE
+==================================================
+
+CAREERGPS
+
+├── Home
+│
+├── Explore
+│   ├── Categories
+│   ├── Careers
+│   └── Career Details
+│
+├── Journey
+│   ├── Profile
+│   ├── Questions
+│   ├── Results
+│   └── CareerMap
+│
+├── Discovery
+│   ├── Deep Assessment
+│   └── Insights
+│
+├── Saved
+│
+├── Dashboard
+│
+└── Settings
+
+==================================================
+PHASE 8.5
+MOBILE-FIRST DESIGN
+==================================================
+
+WHY MOBILE FIRST?
+
+Most students access websites using phones.
+
+--------------------------------------------------
+RULE 1
+ONE QUESTION PER SCREEN
+--------------------------------------------------
+
+GOOD
+
+Question
+
+Option A
+Option B
+Option C
+
+BAD
+
+10 questions on one page
+
+--------------------------------------------------
+RULE 2
+THUMB FRIENDLY DESIGN
+--------------------------------------------------
+
+Minimum button height:
+48px
+
+Large touch targets
+
+--------------------------------------------------
+RULE 3
+SHORT QUESTIONS
+--------------------------------------------------
+
+Avoid:
+
+"What type of professional environment
+would you prefer?"
+
+Use:
+
+"Where would you like to work?"
+
+--------------------------------------------------
+RULE 4
+PROGRESS INDICATOR
+--------------------------------------------------
+
+Question 5 of 20
+
+██████░░░░░░
+
+--------------------------------------------------
+RULE 5
+VERTICAL CAREERMAP
+--------------------------------------------------
+
+10th
+ ↓
+Science
+ ↓
+B.Tech
+ ↓
+Software Engineer
+
+--------------------------------------------------
+RULE 6
+FAST RESULTS
+--------------------------------------------------
+
+Recommendations should appear instantly.
+
+--------------------------------------------------
+RULE 7
+MINIMAL TEXT
+--------------------------------------------------
+
+Use:
+
+Strong Match
+
+Instead of:
+
+Based on comprehensive analysis...
+
+--------------------------------------------------
+RULE 8
+ACCESSIBILITY
+--------------------------------------------------
+
+Readable fonts
+High contrast
+Simple language
+
+==================================================
+PHASE 8 COMPLETE
+==================================================
+
+DELIVERABLES
+
+✓ User Journey
+✓ Screen Inventory
+✓ Low-Fidelity Wireframes
+✓ Navigation Structure
+✓ Mobile-First Design
+
+NEXT PHASE
+
+PHASE 9
+DATABASE DESIGN & SYSTEM ARCHITECTURE
+
+==================================================
+END OF DOCUMENT
+==================================================

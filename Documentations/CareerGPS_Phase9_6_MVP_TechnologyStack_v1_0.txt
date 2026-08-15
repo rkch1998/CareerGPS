@@ -1,0 +1,156 @@
+==================================================
+CAREERGPS
+PHASE 9.6
+MVP TECHNOLOGY STACK
+VERSION 1.0
+==================================================
+
+GOAL
+
+Build quickly.
+
+Keep maintenance simple.
+
+==================================================
+FRONTEND
+==================================================
+
+React
+
+Why?
+
+✓ Large ecosystem
+
+✓ Easy hiring
+
+✓ Mobile-friendly
+
+✓ Component based
+
+--------------------------------------------------
+
+UI Library
+
+Material UI
+
+OR
+
+ShadCN
+
+==================================================
+BACKEND
+==================================================
+
+Spring Boot
+
+Why?
+
+✓ Strong Java ecosystem
+
+✓ Fits future scaling
+
+✓ Familiar technology
+
+✓ REST API support
+
+==================================================
+DATABASE
+==================================================
+
+PostgreSQL
+
+Why?
+
+✓ Reliable
+
+✓ Relational model fits CareerGPS
+
+✓ Open source
+
+==================================================
+HOSTING
+==================================================
+
+Frontend
+
+Vercel
+
+--------------------------------------------------
+
+Backend
+
+Railway
+OR
+Render
+
+--------------------------------------------------
+
+Database
+
+Neon PostgreSQL
+OR
+Supabase PostgreSQL
+
+==================================================
+AUTHENTICATION
+==================================================
+
+MVP
+
+No Login Required
+
+Reason:
+
+Reduce friction.
+
+==================================================
+ANALYTICS
+==================================================
+
+Google Analytics
+
+Track:
+
+- Completed journeys
+- Popular careers
+- Drop-off points
+
+==================================================
+DEPLOYMENT PIPELINE
+==================================================
+
+GitHub
+
+↓
+
+GitHub Actions
+
+↓
+
+Deployment
+
+==================================================
+ARCHITECTURE
+==================================================
+
+React Frontend
+
+↓
+
+Spring Boot API
+
+↓
+
+PostgreSQL
+
+==================================================
+MVP PRINCIPLE
+==================================================
+
+Build the smallest useful version first.
+
+Do not optimize for scale before users exist.
+
+==================================================
+END OF DOCUMENT
+==================================================

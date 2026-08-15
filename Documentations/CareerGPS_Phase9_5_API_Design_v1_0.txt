@@ -1,0 +1,154 @@
+==================================================
+CAREERGPS
+PHASE 9.5
+API DESIGN
+VERSION 1.0
+==================================================
+
+BASE URL
+
+/api/v1
+
+==================================================
+QUESTION APIS
+==================================================
+
+GET
+
+/questions
+
+Purpose:
+
+Load assessment questions
+
+--------------------------------------------------
+
+GET
+
+/questions/{id}
+
+Load specific question
+
+==================================================
+CAREER APIS
+==================================================
+
+GET
+
+/careers
+
+Get all careers
+
+--------------------------------------------------
+
+GET
+
+/careers/{careerId}
+
+Get career details
+
+--------------------------------------------------
+
+GET
+
+/careers/category/{categoryId}
+
+Get careers by category
+
+==================================================
+ASSESSMENT APIS
+==================================================
+
+POST
+
+/assessments
+
+Create assessment
+
+--------------------------------------------------
+
+POST
+
+/assessments/{id}/answers
+
+Save answer
+
+--------------------------------------------------
+
+GET
+
+/assessments/{id}/results
+
+Get recommendations
+
+==================================================
+RECOMMENDATION APIS
+==================================================
+
+GET
+
+/recommendations/{assessmentId}
+
+Returns:
+
+Strong Match
+
+Good Match
+
+Worth Exploring
+
+==================================================
+CAREERMAP APIS
+==================================================
+
+GET
+
+/careermap/{careerId}
+
+Returns routes
+
+Example:
+
+Science Route
+
+Diploma Route
+
+Alternative Route
+
+==================================================
+CATEGORY APIS
+==================================================
+
+GET
+
+/categories
+
+Get all categories
+
+==================================================
+HEALTH API
+==================================================
+
+GET
+
+/health
+
+Returns:
+
+Status = UP
+
+==================================================
+VERSIONING RULE
+==================================================
+
+Always use:
+
+/api/v1
+
+Future:
+
+/api/v2
+
+==================================================
+END OF DOCUMENT
+==================================================

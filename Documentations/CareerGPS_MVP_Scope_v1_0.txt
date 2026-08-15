@@ -1,0 +1,20 @@
+Included
+
+✓ Top 75 Careers
+✓ Question Bank
+✓ Trait Engine
+✓ Recommendation Engine
+✓ CareerMap
+✓ Explore Mode
+✓ Journey Mode
+
+Not Included
+
+✗ AI Mentor
+✗ Scholarship Finder
+✗ College Finder
+✗ Parent Dashboard
+✗ Chatbot
+✗ Career Prediction
+✗ Login System
+✗ Mobile App

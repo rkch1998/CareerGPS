@@ -1,0 +1,121 @@
+CAREERGPS - PHASE 4.3
+SUBJECT → CAREER MAPPING
+
+==================================================
+MATHEMATICS
+==================================================
+
+Software Engineer
+Data Scientist
+AI Engineer
+Actuary
+Mechanical Engineer
+Civil Engineer
+Financial Analyst
+Investment Banker
+
+==================================================
+PHYSICS
+==================================================
+
+Mechanical Engineer
+Electrical Engineer
+Aerospace Engineer
+Physicist
+Research Scientist
+
+==================================================
+CHEMISTRY
+==================================================
+
+Doctor
+Pharmacist
+Chemist
+Chemical Engineer
+Research Scientist
+
+==================================================
+BIOLOGY
+==================================================
+
+Doctor
+Dentist
+Nurse
+Physiotherapist
+Biologist
+Nutritionist
+
+==================================================
+COMPUTER SCIENCE
+==================================================
+
+Software Engineer
+Data Scientist
+AI Engineer
+Cybersecurity Analyst
+Cloud Engineer
+
+==================================================
+COMMERCE
+==================================================
+
+Chartered Accountant
+Financial Analyst
+Investment Banker
+Business Analyst
+Entrepreneur
+
+==================================================
+ECONOMICS
+==================================================
+
+Economist
+Financial Analyst
+Investment Banker
+Public Policy Analyst
+
+==================================================
+HISTORY
+==================================================
+
+Historian
+Lawyer
+Civil Services
+Teacher
+
+==================================================
+POLITICAL SCIENCE
+==================================================
+
+IAS Officer
+IPS Officer
+Lawyer
+Public Policy Analyst
+
+==================================================
+ARTS & DESIGN
+==================================================
+
+Graphic Designer
+Animator
+Fashion Designer
+Interior Designer
+UI/UX Designer
+
+==================================================
+PHYSICAL EDUCATION
+==================================================
+
+Athlete
+Sports Coach
+Fitness Trainer
+Sports Analyst
+
+==================================================
+AGRICULTURE
+==================================================
+
+Agricultural Scientist
+Horticulturist
+Forestry Officer
+Environmental Scientist

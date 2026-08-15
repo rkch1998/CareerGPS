@@ -1,0 +1,332 @@
+==================================================
+CAREERGPS
+PHASE 9.1
+DATABASE SCHEMA DESIGN
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Store all CareerGPS knowledge and user responses
+in a structured format.
+
+DATABASE TYPE
+
+PostgreSQL
+
+WHY?
+
+- Relational data
+- Easy querying
+- Future scalability
+- Open source
+
+==================================================
+CORE ENTITIES
+==================================================
+
+1. Career
+2. Skill
+3. Trait
+4. Subject
+5. Question
+6. Answer
+7. Career Route
+8. Career Category
+9. User Assessment
+10. Recommendation
+
+==================================================
+TABLE: career_categories
+==================================================
+
+category_id (PK)
+
+name
+
+description
+
+example:
+
+CAT001
+Technology & IT
+
+==================================================
+TABLE: careers
+==================================================
+
+career_id (PK)
+
+category_id (FK)
+
+name
+
+description
+
+work_environment
+
+reality_check
+
+example:
+
+TECH001
+
+Software Engineer
+
+==================================================
+TABLE: skills
+==================================================
+
+skill_id (PK)
+
+name
+
+description
+
+example:
+
+SK001
+
+Problem Solving
+
+==================================================
+TABLE: traits
+==================================================
+
+trait_id (PK)
+
+name
+
+description
+
+example:
+
+TR001
+
+Analytical
+
+==================================================
+TABLE: subjects
+==================================================
+
+subject_id (PK)
+
+name
+
+example:
+
+SUB001
+
+Mathematics
+
+==================================================
+TABLE: questions
+==================================================
+
+question_id (PK)
+
+question_text
+
+question_type
+
+display_order
+
+active
+
+example:
+
+Q001
+
+What class are you studying in?
+
+==================================================
+TABLE: question_options
+==================================================
+
+option_id (PK)
+
+question_id (FK)
+
+option_text
+
+display_order
+
+==================================================
+TABLE: routes
+==================================================
+
+route_id (PK)
+
+career_id (FK)
+
+route_name
+
+route_description
+
+example:
+
+ROUTE001
+
+Science → B.Tech → Software Engineer
+
+==================================================
+MAPPING TABLES
+==================================================
+
+career_skill_mapping
+
+career_id (FK)
+
+skill_id (FK)
+
+weight
+
+--------------------------------------------------
+
+career_trait_mapping
+
+career_id (FK)
+
+trait_id (FK)
+
+weight
+
+--------------------------------------------------
+
+career_subject_mapping
+
+career_id (FK)
+
+subject_id (FK)
+
+weight
+
+--------------------------------------------------
+
+question_trait_mapping
+
+question_id (FK)
+
+option_id (FK)
+
+trait_id (FK)
+
+score
+
+--------------------------------------------------
+
+question_skill_mapping
+
+question_id (FK)
+
+option_id (FK)
+
+skill_id (FK)
+
+score
+
+==================================================
+ASSESSMENT TABLES
+==================================================
+
+user_assessments
+
+assessment_id (PK)
+
+created_date
+
+student_class
+
+stream
+
+assessment_mode
+
+--------------------------------------------------
+
+assessment_answers
+
+answer_id (PK)
+
+assessment_id (FK)
+
+question_id (FK)
+
+option_id (FK)
+
+--------------------------------------------------
+
+assessment_trait_scores
+
+assessment_id (FK)
+
+trait_id (FK)
+
+score
+
+--------------------------------------------------
+
+assessment_skill_scores
+
+assessment_id (FK)
+
+skill_id (FK)
+
+score
+
+==================================================
+RECOMMENDATION TABLES
+==================================================
+
+recommendations
+
+recommendation_id (PK)
+
+assessment_id (FK)
+
+career_id (FK)
+
+match_level
+
+score
+
+reason
+
+--------------------------------------------------
+
+match_level
+
+STRONG_MATCH
+
+GOOD_MATCH
+
+WORTH_EXPLORING
+
+==================================================
+FUTURE TABLES
+==================================================
+
+users
+
+saved_careermaps
+
+family_reports
+
+scholarships
+
+colleges
+
+ai_conversations
+
+==================================================
+DATABASE PRINCIPLE
+==================================================
+
+Knowledge should be stored once.
+
+Mappings should connect everything.
+
+Avoid duplicate data.
+
+==================================================
+END OF DOCUMENT
+==================================================

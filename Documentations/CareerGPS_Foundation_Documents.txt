@@ -1,0 +1,219 @@
+
+CAREERGPS - FOUNDATION DOCUMENTS
+
+==================================================
+1. VISION
+==================================================
+CareerGPS helps students discover, compare, and navigate education and career paths based on their interests, goals, strengths, and real-world circumstances.
+
+Core idea:
+"Tell us where you are today and where you want to go. We'll help you find the possible routes."
+
+==================================================
+2. MISSION
+==================================================
+To help every student make informed career decisions through personalized, visual, understandable, and trustworthy guidance.
+
+==================================================
+3. PRD SUMMARY
+==================================================
+CareerGPS is a Career Decision Platform.
+
+Primary Users:
+- Class 10 students
+- Class 12 students
+
+Secondary Users:
+- Parents
+- Teachers
+- Career Counsellors
+
+Core Features:
+- Career Roadmaps
+- Career Explorer
+- Route Comparison
+- Personalized Recommendations
+- Backup Plans
+- Career Details
+
+==================================================
+4. USER PERSONAS
+==================================================
+
+Persona 1: Class 10 Student
+Problems:
+- Doesn't know available options
+- Fear of choosing wrong stream
+- Confused by too much information
+
+Persona 2: Parent
+Problems:
+- Limited awareness of modern careers
+- Wants stable future for child
+- Needs trusted information
+
+Persona 3: Class 12 Student
+Problems:
+- College decisions
+- Entrance exams
+- Course selection
+
+==================================================
+5. PRODUCT PRINCIPLES
+==================================================
+
+1. Student Comes First
+2. Recommend, Never Decide
+3. Explain Every Recommendation
+4. Show Multiple Routes
+5. Respect Reality Without Limiting Dreams
+6. Avoid Prestige Bias
+7. Avoid Salary-Only Bias
+8. Be Honest About Uncertainty
+9. Encourage Exploration
+10. Every Career Deserves Respect
+
+==================================================
+6. LANGUAGE GUIDE
+==================================================
+
+Rule:
+A Class 8 student should understand every question.
+
+Examples:
+
+Bad:
+"What is your aptitude?"
+
+Good:
+"What kind of work sounds fun to you?"
+
+Rules:
+- Use simple words
+- One idea per question
+- No jargon
+- Friendly tone
+- Explain why questions are asked
+
+==================================================
+7. DECISION FRAMEWORK
+==================================================
+
+Level 1:
+Current Situation
+
+Level 2:
+Learning Preferences
+
+Level 3:
+Interests
+
+Level 4:
+Lifestyle Goals
+
+Level 5:
+Constraints
+
+Level 6:
+Career Preferences
+
+Level 7:
+Recommendations
+
+Framework Flow:
+
+Question
+→ Answer
+→ Meaning
+→ Evidence
+→ Career Traits
+→ Routes
+→ Explanation
+
+==================================================
+8. THREE MODES
+==================================================
+
+Explore Mode
+- 2-3 minutes
+- Discover careers
+
+Journey Mode
+- 8-12 minutes
+- Main CareerGPS experience
+
+Discovery Mode
+- 20-30 minutes
+- Deep self-discovery
+
+==================================================
+9. ETHICAL PRINCIPLES
+==================================================
+
+- No black-box recommendations
+- No ranking careers by prestige
+- No ranking careers only by salary
+- Show uncertainty honestly
+- Show alternatives
+- Student makes final decision
+
+==================================================
+10. FOUNDER PARKING LOT
+==================================================
+
+Future Features:
+
+1. Career Decision Engine
+2. Family Decision Support Tool
+3. Parent Reports
+4. AI Career Mentor
+5. Scholarship Finder
+6. College Finder
+7. Study Planner
+
+==================================================
+11. FOUNDER QUESTIONS LOG
+==================================================
+
+Open Questions:
+
+- How do we validate the framework?
+- Should we show confidence scores?
+- How do we avoid recommendation bias?
+- How do we handle unavailable courses?
+- How do we explain uncertainty?
+
+==================================================
+12. NAMING DECISION
+==================================================
+
+Product Name:
+CareerGPS
+
+Core Visualization:
+CareerMap
+
+Reason:
+CareerGPS guides students from current position to destination.
+CareerMap visualizes possible routes.
+
+==================================================
+13. LONG-TERM VISION
+==================================================
+
+CareerGPS should help students:
+
+Discover
+→ Understand
+→ Navigate
+→ Grow
+
+CareerGPS should not simply answer:
+
+"What should I become?"
+
+It should help answer:
+
+"What kind of life do I want, and what routes can help me get there?"
+
+END OF DOCUMENT

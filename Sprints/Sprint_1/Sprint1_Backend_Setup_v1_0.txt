@@ -1,0 +1,105 @@
+==================================================
+CAREERGPS
+SPRINT 1
+BACKEND SETUP
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Setup the Spring Boot backend foundation.
+
+==================================================
+TECH STACK
+==================================================
+
+Java 17
+
+Spring Boot 3.x
+
+Maven
+
+PostgreSQL
+
+==================================================
+DEPENDENCIES
+==================================================
+
+Spring Web
+
+Spring Data JPA
+
+PostgreSQL Driver
+
+Validation
+
+Lombok
+
+Spring Boot Actuator
+
+==================================================
+PACKAGE STRUCTURE
+==================================================
+
+com.careergps
+
+├── config
+├── controller
+├── service
+├── repository
+├── entity
+├── dto
+├── mapper
+├── exception
+├── util
+└── CareerGpsApplication
+
+==================================================
+APPLICATION CONFIG
+==================================================
+
+Profiles
+
+local
+
+dev
+
+prod
+
+==================================================
+HEALTH ENDPOINT
+==================================================
+
+GET
+
+/api/v1/health
+
+Response
+
+{
+  "status": "UP"
+}
+
+==================================================
+LOGGING
+==================================================
+
+Use SLF4J
+
+Do not use System.out.println()
+
+==================================================
+SPRINT OUTPUT
+==================================================
+
+✓ Spring Boot Application Running
+
+✓ Health API Available
+
+✓ Environment Profiles Configured
+
+✓ Project Structure Created
+
+==================================================
+END
+==================================================

@@ -1,0 +1,226 @@
+CAREERGPS - PHASE 7
+TRAIT & RECOMMENDATION ENGINE v1.0
+
+PURPOSE
+
+Convert student answers into career recommendations through a transparent rule-based system.
+
+FLOW
+
+Student Answers
+    ↓
+Interests
+    ↓
+Skills
+    ↓
+Traits
+    ↓
+Career Matching
+    ↓
+Career Suggestions
+
+==================================================
+TRAIT LIBRARY
+==================================================
+
+CATEGORY 1 - ANALYTICAL
+
+TR001 Analytical
+TR002 Logical
+TR003 Problem Solver
+TR004 Detail-Oriented
+TR005 Critical Thinker
+TR006 Strategic Thinker
+TR007 Research-Oriented
+TR008 Data-Oriented
+TR009 Investigative
+TR010 Curious
+
+CATEGORY 2 - TECHNICAL
+
+TR011 Technical
+TR012 System Thinker
+TR013 Builder
+TR014 Technology Enthusiast
+TR015 Engineering Mindset
+TR016 Automation-Oriented
+TR017 Digital Creator
+TR018 Innovation-Focused
+TR019 Process-Oriented
+TR020 Solution Designer
+
+CATEGORY 3 - PEOPLE
+
+TR021 Empathetic
+TR022 Helpful
+TR023 Supportive
+TR024 Communicator
+TR025 Listener
+TR026 Mentor
+TR027 Teacher
+TR028 Team Player
+TR029 Relationship Builder
+TR030 Service-Oriented
+
+CATEGORY 4 - LEADERSHIP
+
+TR031 Leader
+TR032 Decision Maker
+TR033 Organizer
+TR034 Influencer
+TR035 Responsible
+TR036 Visionary
+TR037 Entrepreneurial
+TR038 Negotiator
+TR039 Motivator
+TR040 Managerial
+
+CATEGORY 5 - CREATIVE
+
+TR041 Creative
+TR042 Artistic
+TR043 Designer
+TR044 Storyteller
+TR045 Visual Thinker
+TR046 Innovative
+TR047 Imaginative
+TR048 Content Creator
+TR049 Expressive
+TR050 Aesthetic Thinker
+
+CATEGORY 6 - SCIENTIFIC
+
+TR051 Scientific
+TR052 Experimenter
+TR053 Observer
+TR054 Evidence-Seeker
+TR055 Explorer
+TR056 Discovery-Oriented
+TR057 Laboratory-Oriented
+TR058 Nature Enthusiast
+TR059 Investigator
+TR060 Researcher
+
+CATEGORY 7 - BUSINESS
+
+TR061 Business-Minded
+TR062 Financial Thinker
+TR063 Risk Taker
+TR064 Opportunity Finder
+TR065 Market-Oriented
+TR066 Commercial Thinker
+TR067 Sales-Oriented
+TR068 Investor Mindset
+TR069 Resource Optimizer
+TR070 Growth-Oriented
+
+CATEGORY 8 - PHYSICAL & FIELD
+
+TR071 Outdoor-Oriented
+TR072 Physically Active
+TR073 Adventurous
+TR074 Field Worker
+TR075 Hands-On
+TR076 Disciplined
+TR077 Courageous
+TR078 Action-Oriented
+TR079 Resilient
+TR080 Operational
+
+==================================================
+RECOMMENDATION RULES
+==================================================
+
+Example Rule 1
+
+IF
+
+TR001 Analytical >= 8
+
+AND
+
+TR011 Technical >= 8
+
+THEN
+
+Recommend:
+
+- Software Engineer
+- Data Scientist
+- AI Engineer
+
+--------------------------------------------------
+
+Example Rule 2
+
+IF
+
+TR021 Empathetic >= 8
+
+AND
+
+TR051 Scientific >= 6
+
+THEN
+
+Recommend:
+
+- Doctor
+- Nurse
+- Physiotherapist
+
+--------------------------------------------------
+
+Example Rule 3
+
+IF
+
+TR024 Communicator >= 8
+
+AND
+
+TR027 Teacher >= 8
+
+THEN
+
+Recommend:
+
+- Teacher
+- Trainer
+- Educational Counselor
+
+==================================================
+CAREER MATCHING LEVELS
+==================================================
+
+Strong Match
+Good Match
+Worth Exploring
+
+Avoid:
+- Percentages
+- Rankings
+- "Best Career" Labels
+
+==================================================
+EXPLANATION FRAMEWORK
+==================================================
+
+Why this career was suggested:
+
+✓ You enjoy solving problems
+✓ You like technology
+✓ You prefer analytical work
+✓ You enjoy learning new things
+
+==================================================
+ETHICAL RULE
+==================================================
+
+CareerGPS recommends.
+
+Students decide.
+
+CareerGPS never declares a career as the only correct option.
+
+END OF PHASE 7

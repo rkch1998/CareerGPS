@@ -1,0 +1,392 @@
+==================================================
+CAREERGPS
+PHASE 8.6
+RECOMMENDATION ENGINE VALIDATION
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Validate recommendation quality before software development.
+
+GOAL
+
+Check whether different student profiles receive
+different and reasonable recommendations.
+
+==================================================
+TEST CASE 1
+THE TECH BUILDER
+==================================================
+
+Class:
+10
+
+Likes:
+- Computers
+- Maths
+- Building Things
+- Solving Problems
+
+Dislikes:
+- Biology
+
+Traits Expected:
+
+TR001 Analytical
+TR003 Problem Solver
+TR011 Technical
+TR014 Technology Enthusiast
+
+Expected Careers:
+
+Strong Match
+
+- Software Engineer
+- Data Scientist
+- AI Engineer
+
+Good Match
+
+- Cybersecurity Analyst
+- Cloud Engineer
+
+==================================================
+TEST CASE 2
+THE HELPER
+==================================================
+
+Class:
+10
+
+Likes:
+- Biology
+- Helping People
+- Listening
+
+Traits Expected:
+
+TR021 Empathetic
+TR022 Helpful
+TR024 Communicator
+
+Expected Careers:
+
+Strong Match
+
+- Doctor
+- Nurse
+- Physiotherapist
+
+Good Match
+
+- Nutritionist
+- Counselor
+
+==================================================
+TEST CASE 3
+THE CREATOR
+==================================================
+
+Class:
+10
+
+Likes:
+- Drawing
+- Design
+- Creativity
+
+Traits Expected:
+
+TR041 Creative
+TR043 Designer
+TR045 Visual Thinker
+
+Expected Careers:
+
+Strong Match
+
+- Graphic Designer
+- UI/UX Designer
+- Animator
+
+Good Match
+
+- Fashion Designer
+- Interior Designer
+
+==================================================
+TEST CASE 4
+THE BUSINESS MIND
+==================================================
+
+Class:
+10
+
+Likes:
+- Money
+- Business
+- Leadership
+
+Traits Expected:
+
+TR061 Business-Minded
+TR062 Financial Thinker
+TR037 Entrepreneurial
+
+Expected Careers:
+
+Strong Match
+
+- Entrepreneur
+- Financial Analyst
+- Business Analyst
+
+Good Match
+
+- Chartered Accountant
+- Investment Banker
+
+==================================================
+TEST CASE 5
+THE TEACHER
+==================================================
+
+Class:
+10
+
+Likes:
+- Explaining Things
+- Helping Others Learn
+
+Traits Expected:
+
+TR024 Communicator
+TR026 Mentor
+TR027 Teacher
+
+Expected Careers:
+
+Strong Match
+
+- Teacher
+- Professor
+
+Good Match
+
+- Trainer
+- Educational Counselor
+
+==================================================
+TEST CASE 6
+THE SCIENTIST
+==================================================
+
+Class:
+10
+
+Likes:
+- Experiments
+- Science
+- Discovery
+
+Traits Expected:
+
+TR051 Scientific
+TR052 Experimenter
+TR060 Researcher
+
+Expected Careers:
+
+Strong Match
+
+- Research Scientist
+- Physicist
+- Chemist
+
+Good Match
+
+- Biologist
+- Astrophysicist
+
+==================================================
+TEST CASE 7
+THE DEFENDER
+==================================================
+
+Class:
+10
+
+Likes:
+- Discipline
+- Fitness
+- Serving Country
+
+Traits Expected:
+
+TR076 Disciplined
+TR077 Courageous
+TR078 Action-Oriented
+
+Expected Careers:
+
+Strong Match
+
+- Army Officer
+- Navy Officer
+- Air Force Officer
+
+Good Match
+
+- Intelligence Officer
+
+==================================================
+TEST CASE 8
+THE NATURE LOVER
+==================================================
+
+Class:
+10
+
+Likes:
+- Plants
+- Animals
+- Environment
+
+Traits Expected:
+
+TR058 Nature Enthusiast
+TR071 Outdoor-Oriented
+
+Expected Careers:
+
+Strong Match
+
+- Environmental Scientist
+- Forestry Officer
+- Wildlife Biologist
+
+Good Match
+
+- Agricultural Scientist
+
+==================================================
+TEST CASE 9
+THE SPORTS PERSON
+==================================================
+
+Class:
+10
+
+Likes:
+- Sports
+- Fitness
+- Competition
+
+Traits Expected:
+
+TR072 Physically Active
+TR073 Adventurous
+
+Expected Careers:
+
+Strong Match
+
+- Athlete
+- Sports Coach
+- Fitness Trainer
+
+Good Match
+
+- Sports Analyst
+
+==================================================
+TEST CASE 10
+THE UNDECIDED STUDENT
+==================================================
+
+Class:
+10
+
+Likes:
+- Many Different Things
+
+No Strong Preferences
+
+Expected Result
+
+DO NOT force a career.
+
+Suggest:
+
+Explore Mode
+
+Career Categories
+
+Discovery Mode
+
+Broad Career Exploration
+
+==================================================
+VALIDATION RULES
+==================================================
+
+Rule 1
+
+Different students should receive different recommendations.
+
+--------------------------------------------------
+
+Rule 2
+
+No career should dominate every recommendation list.
+
+--------------------------------------------------
+
+Rule 3
+
+Recommendations must be explainable.
+
+--------------------------------------------------
+
+Rule 4
+
+Students must always receive alternative options.
+
+--------------------------------------------------
+
+Rule 5
+
+Never display:
+
+"Perfect Career"
+
+"Best Career"
+
+"Only Career"
+
+--------------------------------------------------
+
+Rule 6
+
+If confidence is low:
+
+Recommend exploration instead of prediction.
+
+==================================================
+SUCCESS CRITERIA
+==================================================
+
+✓ Recommendations make logical sense
+
+✓ Results are explainable
+
+✓ Students can discover new careers
+
+✓ Recommendations avoid bias
+
+✓ Students remain in control
+
+==================================================
+END OF DOCUMENT
+==================================================

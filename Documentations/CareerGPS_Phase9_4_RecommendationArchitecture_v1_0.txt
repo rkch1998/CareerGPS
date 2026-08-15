@@ -1,0 +1,166 @@
+==================================================
+CAREERGPS
+PHASE 9.4
+RECOMMENDATION ARCHITECTURE
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Convert student answers into career recommendations.
+
+==================================================
+ARCHITECTURE FLOW
+==================================================
+
+Student
+   ↓
+
+Question Engine
+   ↓
+
+Answer Collection
+   ↓
+
+Trait Scoring Engine
+   ↓
+
+Career Matching Engine
+   ↓
+
+Recommendation Generator
+   ↓
+
+CareerMap Generator
+
+==================================================
+STEP 1
+QUESTION ENGINE
+==================================================
+
+Loads active questions.
+
+Example:
+
+Q001
+Q002
+Q003
+
+==================================================
+STEP 2
+ANSWER COLLECTION
+==================================================
+
+Stores student answers.
+
+Example:
+
+Q003
+Building Apps
+
+==================================================
+STEP 3
+TRAIT SCORING ENGINE
+==================================================
+
+Building Apps
+
+Adds:
+
+TR011 Technical +3
+
+TR014 Technology Enthusiast +3
+
+TR013 Builder +2
+
+==================================================
+STEP 4
+CAREER MATCHING ENGINE
+==================================================
+
+Compare trait scores against:
+
+career_trait_mapping
+
+Example:
+
+Software Engineer
+
+TR011
+TR014
+TR013
+
+==================================================
+STEP 5
+RECOMMENDATION GENERATOR
+==================================================
+
+Calculate career score.
+
+Example:
+
+Software Engineer
+85
+
+Data Scientist
+78
+
+Cybersecurity Analyst
+72
+
+==================================================
+STEP 6
+MATCH CLASSIFICATION
+==================================================
+
+Strong Match
+
+Good Match
+
+Worth Exploring
+
+==================================================
+STEP 7
+EXPLANATION ENGINE
+==================================================
+
+Example:
+
+Recommended because:
+
+✓ You enjoy solving problems
+
+✓ You enjoy technology
+
+✓ You prefer analytical work
+
+==================================================
+STEP 8
+CAREERMAP GENERATOR
+==================================================
+
+Build routes.
+
+Example:
+
+10th
+ ↓
+Science
+ ↓
+B.Tech
+ ↓
+Software Engineer
+
+==================================================
+DESIGN PRINCIPLE
+==================================================
+
+Recommend.
+
+Do not predict.
+
+CareerGPS helps students explore options.
+
+==================================================
+END OF DOCUMENT
+==================================================
