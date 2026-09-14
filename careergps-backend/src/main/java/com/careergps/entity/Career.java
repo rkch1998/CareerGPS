@@ -19,24 +19,24 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Career {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private Long careerId;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "id")
+  private Long careerId;
 
-    @ManyToOne
-    @JoinColumn(name = "category_id", nullable = false)
-    private CareerCategory careerCategory;
+  @ManyToOne
+  @JoinColumn(name = "category_id", nullable = false)
+  private CareerCategory careerCategory;
 
-    @Column(name = "name", nullable = false)
-    private String name;
+  @Column(name = "name", nullable = false)
+  private String name;
 
-    @Column(name = "description")
-    private String description;
+  @Column(name = "description")
+  private String description;
 
-    @Column(name = "work_environment")
-    private String workEnvironment;
+  @Column(name = "work_environment")
+  private String workEnvironment;
 
-    @Column(name = "reality_check")
-    private String realityCheck;
+  @Column(name = "reality_check")
+  private String realityCheck;
 }

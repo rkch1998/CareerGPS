@@ -19,18 +19,18 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class QuestionOption {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private Long optionId;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "id")
+  private Long optionId;
 
-    @ManyToOne
-    @JoinColumn(name = "question_id", nullable = false)
-    private Question question;
+  @ManyToOne
+  @JoinColumn(name = "question_id", nullable = false)
+  private Question question;
 
-    @Column(name = "option_text", nullable = false)
-    private String optionText;
+  @Column(name = "option_text", nullable = false)
+  private String optionText;
 
-    @Column(name = "display_order")
-    private Integer displayOrder;
+  @Column(name = "display_order")
+  private Integer displayOrder;
 }

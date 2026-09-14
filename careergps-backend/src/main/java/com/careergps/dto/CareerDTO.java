@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CareerDTO {
 
-    private Long careerId;
-    private Long categoryId;
-    private String name;
-    private String description;
-    private String workEnvironment;
-    private String realityCheck;
+  private Long careerId;
+  private Long categoryId;
+  private String name;
+  private String description;
+  private String workEnvironment;
+  private String realityCheck;
 }

@@ -2,4 +2,4 @@ package com.careergps.dto;
 
 import jakarta.validation.constraints.NotNull;
 
-public record SaveAnswerRequest(@NotNull Long questionId, @NotNull Long optionId) { }
+public record SaveAnswerRequest(@NotNull Long questionId, @NotNull Long optionId) {}

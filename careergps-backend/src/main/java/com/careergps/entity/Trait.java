@@ -17,17 +17,17 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Trait {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private Long traitId;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "id")
+  private Long traitId;
 
-    @Column(name = "code", nullable = false, unique = true)
-    private String code;
+  @Column(name = "code", nullable = false, unique = true)
+  private String code;
 
-    @Column(name = "name", nullable = false)
-    private String name;
+  @Column(name = "name", nullable = false)
+  private String name;
 
-    @Column(name = "description")
-    private String description;
+  @Column(name = "description")
+  private String description;
 }

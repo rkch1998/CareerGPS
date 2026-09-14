@@ -17,17 +17,17 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class CareerCategory {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
-    private Long categoryId;
+  @Id
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  @Column(name = "id")
+  private Long categoryId;
 
-    @Column(name = "code", nullable = false, unique = true)
-    private String code;
+  @Column(name = "code", nullable = false, unique = true)
+  private String code;
 
-    @Column(name = "name", nullable = false)
-    private String name;
+  @Column(name = "name", nullable = false)
+  private String name;
 
-    @Column(name = "description")
-    private String description;
+  @Column(name = "description")
+  private String description;
 }
