@@ -1,0 +1,142 @@
+==================================================
+CAREERGPS
+PHASE 11.3
+BACKEND MODULE DESIGN
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Organize backend by business domain.
+
+==================================================
+MODULES
+==================================================
+
+1. Career Module
+
+2. Question Module
+
+3. Assessment Module
+
+4. Recommendation Module
+
+5. CareerMap Module
+
+==================================================
+CAREER MODULE
+==================================================
+
+Responsibilities
+
+Get careers
+
+Get categories
+
+Get career details
+
+Classes
+
+CareerController
+
+CareerService
+
+CareerRepository
+
+==================================================
+QUESTION MODULE
+==================================================
+
+Responsibilities
+
+Serve questions
+
+Serve options
+
+Classes
+
+QuestionController
+
+QuestionService
+
+QuestionRepository
+
+==================================================
+ASSESSMENT MODULE
+==================================================
+
+Responsibilities
+
+Create assessment
+
+Store answers
+
+Track progress
+
+Classes
+
+AssessmentController
+
+AssessmentService
+
+AssessmentRepository
+
+==================================================
+RECOMMENDATION MODULE
+==================================================
+
+Responsibilities
+
+Calculate traits
+
+Calculate scores
+
+Generate recommendations
+
+Classes
+
+RecommendationController
+
+RecommendationService
+
+TraitScoringService
+
+CareerMatchingService
+
+==================================================
+CAREERMAP MODULE
+==================================================
+
+Responsibilities
+
+Generate routes
+
+Compare routes
+
+Show alternatives
+
+Classes
+
+CareerMapController
+
+CareerMapService
+
+RouteRepository
+
+==================================================
+MODULE RULE
+==================================================
+
+Each module owns:
+
+Controller
+
+Service
+
+Repository
+
+DTOs
+
+==================================================
+END
+==================================================

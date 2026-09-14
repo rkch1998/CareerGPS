@@ -1,0 +1,15 @@
+ALTER TABLE question_options ADD COLUMN IF NOT EXISTS created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+ALTER TABLE question_options ADD COLUMN IF NOT EXISTS updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+ALTER TABLE question_trait_mapping ADD COLUMN IF NOT EXISTS created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+ALTER TABLE question_trait_mapping ADD COLUMN IF NOT EXISTS updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+ALTER TABLE career_trait_mapping ADD COLUMN IF NOT EXISTS created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+ALTER TABLE career_trait_mapping ADD COLUMN IF NOT EXISTS updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+ALTER TABLE routes ADD COLUMN IF NOT EXISTS created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+ALTER TABLE routes ADD COLUMN IF NOT EXISTS updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
+CREATE INDEX IF NOT EXISTS ix_careers_category_id ON careers(category_id);
+CREATE INDEX IF NOT EXISTS ix_question_options_question_id ON question_options(question_id);
+CREATE INDEX IF NOT EXISTS ix_question_trait_mapping_option_id ON question_trait_mapping(option_id);
+CREATE INDEX IF NOT EXISTS ix_question_trait_mapping_trait_id ON question_trait_mapping(trait_id);
+CREATE INDEX IF NOT EXISTS ix_career_trait_mapping_career_id ON career_trait_mapping(career_id);
+CREATE INDEX IF NOT EXISTS ix_career_trait_mapping_trait_id ON career_trait_mapping(trait_id);
+CREATE INDEX IF NOT EXISTS ix_routes_career_id ON routes(career_id);

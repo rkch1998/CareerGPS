@@ -1,0 +1,94 @@
+==================================================
+CAREERGPS
+PHASE 11.1
+POSTGRESQL SCHEMA SCRIPTS
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Create all database tables required for MVP.
+
+==================================================
+SCHEMA CREATION ORDER
+==================================================
+
+001_create_career_categories.sql
+
+002_create_careers.sql
+
+003_create_traits.sql
+
+004_create_questions.sql
+
+005_create_question_options.sql
+
+006_create_question_trait_mapping.sql
+
+007_create_career_trait_mapping.sql
+
+008_create_routes.sql
+
+009_create_assessments.sql
+
+010_create_assessment_answers.sql
+
+011_create_recommendations.sql
+
+==================================================
+STANDARD COLUMNS
+==================================================
+
+id BIGSERIAL PRIMARY KEY
+
+created_at TIMESTAMP
+
+updated_at TIMESTAMP
+
+==================================================
+INDEX STRATEGY
+==================================================
+
+career_id
+
+trait_id
+
+question_id
+
+option_id
+
+assessment_id
+
+==================================================
+FOREIGN KEY STRATEGY
+==================================================
+
+career -> category
+
+question_option -> question
+
+mapping -> trait
+
+mapping -> career
+
+recommendation -> assessment
+
+==================================================
+MIGRATION TOOL
+==================================================
+
+Flyway
+
+Migration Naming
+
+V1__create_categories.sql
+
+V2__create_careers.sql
+
+V3__create_traits.sql
+
+...
+
+==================================================
+END
+==================================================

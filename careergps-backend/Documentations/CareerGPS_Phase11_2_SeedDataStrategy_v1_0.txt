@@ -1,0 +1,121 @@
+==================================================
+CAREERGPS
+PHASE 11.2
+SEED DATA STRATEGY
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Load CareerGPS knowledge into database.
+
+==================================================
+SEED DATA SOURCES
+==================================================
+
+1. Career Categories
+
+2. Careers
+
+3. Traits
+
+4. Questions
+
+5. Question Options
+
+6. Career Routes
+
+7. Career Trait Mapping
+
+==================================================
+FILE FORMAT
+==================================================
+
+CSV
+
+Example
+
+careers.csv
+
+career_traits.csv
+
+questions.csv
+
+==================================================
+IMPORT ORDER
+==================================================
+
+1. Categories
+
+2. Traits
+
+3. Careers
+
+4. Questions
+
+5. Question Options
+
+6. Career Routes
+
+7. Mapping Tables
+
+==================================================
+SEED DATA STORAGE
+==================================================
+
+database/seed-data
+
+--------------------------------------------------
+
+categories.csv
+
+careers.csv
+
+traits.csv
+
+questions.csv
+
+question_options.csv
+
+routes.csv
+
+career_trait_mapping.csv
+
+==================================================
+VERSIONING
+==================================================
+
+seed-v1
+
+Top 75 Careers
+
+--------------------------------------------------
+
+seed-v2
+
+100+ Careers
+
+--------------------------------------------------
+
+seed-v3
+
+India + Global Careers
+
+==================================================
+QUALITY CHECKS
+==================================================
+
+No duplicate careers
+
+No duplicate traits
+
+Every career must have:
+
+- Category
+- Description
+- Traits
+- Route
+
+==================================================
+END
+==================================================

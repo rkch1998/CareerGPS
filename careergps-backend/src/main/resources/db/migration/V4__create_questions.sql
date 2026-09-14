@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS questions (
+    id BIGSERIAL PRIMARY KEY,
+    question_text TEXT NOT NULL,
+    display_order INT NOT NULL,
+    active BOOLEAN DEFAULT TRUE,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    question_type VARCHAR(50) NOT NULL
+);

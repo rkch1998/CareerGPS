@@ -1,0 +1,108 @@
+==================================================
+CAREERGPS
+PHASE 11.4
+FRONTEND COMPONENT DESIGN
+VERSION 1.0
+==================================================
+
+PURPOSE
+
+Design reusable React components.
+
+==================================================
+CORE COMPONENTS
+==================================================
+
+Button
+
+Card
+
+ProgressBar
+
+Navbar
+
+Footer
+
+Modal
+
+==================================================
+CAREER COMPONENTS
+==================================================
+
+CareerCard
+
+CareerCategoryCard
+
+CareerDetailCard
+
+CareerMapCard
+
+==================================================
+QUESTION COMPONENTS
+==================================================
+
+QuestionCard
+
+OptionCard
+
+QuestionProgress
+
+AssessmentHeader
+
+==================================================
+RESULT COMPONENTS
+==================================================
+
+StrongMatchCard
+
+GoodMatchCard
+
+ExploreCard
+
+RecommendationSummary
+
+==================================================
+CAREERMAP COMPONENTS
+==================================================
+
+RouteCard
+
+RouteTimeline
+
+RouteComparison
+
+==================================================
+PAGE STRUCTURE
+==================================================
+
+HomePage
+
+ExplorePage
+
+JourneyPage
+
+QuestionPage
+
+ResultPage
+
+CareerDetailPage
+
+CareerMapPage
+
+==================================================
+DESIGN RULES
+==================================================
+
+Mobile First
+
+Simple Language
+
+Large Touch Targets
+
+Fast Loading
+
+Accessible
+
+==================================================
+END
+==================================================
